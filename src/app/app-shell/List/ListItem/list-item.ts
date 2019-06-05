@@ -5,7 +5,7 @@
   templateUrl: './list-item.component.html'
 })
 export class ListItemComponent implements OnInit {
-  @Input() _id : number;
+  @Input() _id: number;
   @Input() text: string;
   @Output() deleteTextEventEmitter = new EventEmitter<number>();
   constructor() { }
@@ -13,13 +13,13 @@ export class ListItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  onDeleteListItem(){
+  onDeleteListItem() {
     this.deleteTextEventEmitter.emit(this._id);
   }
 
 }
 
-export interface IListItem{
+export interface IListItem {
   _id: number;
   text: string;
 }

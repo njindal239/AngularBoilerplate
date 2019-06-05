@@ -13,6 +13,5 @@
     MASTERDETAIL : '/api/masterdetail',
     LIST : '/api/list',
     GRID : '/api/grid',
-    
   }
 };
