@@ -5,6 +5,7 @@
   templateUrl: './list-item.component.html'
 })
 export class ListItemComponent implements OnInit {
+  // tslint:disable-next-line
   @Input() _id: number;
   @Input() text: string;
   @Output() deleteTextEventEmitter = new EventEmitter<number>();
