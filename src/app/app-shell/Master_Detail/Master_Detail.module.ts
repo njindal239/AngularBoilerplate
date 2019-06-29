@@ -20,4 +20,4 @@ import { MasterDetailPageComponent } from './MasterDetailPage/master-detail-page
     ]),
   ]
 })
-export class Master_DetailModule { }
+export class MasterDetailModule { }
